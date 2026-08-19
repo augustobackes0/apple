@@ -9,4 +9,9 @@
 header {
     background-color: aqua;
     height: 45px;
+    display: flex;
+}
+
+ul {
+    text-decoration: none;
 }
