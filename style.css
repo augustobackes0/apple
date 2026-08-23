@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: aqua;
+    
     height: 45px;
    
     
@@ -36,49 +36,110 @@ div.maca {
    padding-left: 15px;
 }
 
-article.iphone {
+article {
     
     display: flex;
     width: 100%;
-   
+    margin-bottom: 15px;
     justify-content: center;
     
 }
 
-article.iphone > picture {
+article > picture {
     display: flex;
     overflow: hidden;
     justify-content: center;
     width:  900px;
 }
 
-article.iphone > picture > img {
+article > picture > img {
     
     height: 500px;
     object-fit: cover;
 }
 
-article.iphone > div {
+article > div {
     position: absolute;
     padding-top: 30px;
     text-align: center;
 }
 
-article.iphone > div > h2 {
+article > div > h2 {
    font-size: 1.9em;
-   
+   color: rgba(0, 0, 0, 0.842);
 }
 
-article.iphone > div > p {
+article > div > h2 > span {
+   font-family: cursive;
+   color: #196FBE;
+}
+
+article > div > p {
     padding-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.795);
 }
 
-article.iphone > div > a {
+article > div > a.saiba {
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     background-color: #0076DF;
     border-radius: 20px;
-    padding: 7px;
+    height: 37px;
+    padding: 0 15px;
+    color: white;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+article > div > a.comprar {
+    display: inline-flex;
+    align-items: center;
+    height: 37px;
+    text-decoration: none;
+    border: 1px solid #0076DF;
+    border-radius: 20px;
+    padding: 0 15px;
+    color: #0076DF;
+    font-size: 0.9em;
+}
+
+article > div > a.comprar:hover {
+    background-color: #0076DF;
+    color: white;
+}
+
+
+article.watch > div > h2 {
+    font-weight: 500;
+   font-size: 1.5em;
+   color: rgba(0, 0, 0, 0.842);
+}
+
+article.watch > div > h2 > span {
+    color: black;
+}
+
+article.black > div > h2 {
+    color: white;
+}
+
+article.black > div > p {
+    color: white;
+}
+
+article > div > p > sup {
+    font-size: 12px;
+}
+
+article#watch > div > h2 {
+    font-weight: 500;
+   font-size: 1.5em;
+   
+}
+
+article#watch > div > h2 > span {
     color: white;
 }
