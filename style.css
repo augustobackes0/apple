@@ -66,4 +66,19 @@ article.iphone > div {
 
 article.iphone > div > h2 {
    font-size: 1.9em;
+   
+}
+
+article.iphone > div > p {
+    padding-top: 10px;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+article.iphone > div > a {
+    text-decoration: none;
+    background-color: #0076DF;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
 }
