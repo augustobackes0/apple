@@ -1,5 +1,55 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 500px) {
-    
+@media screen and (min-width: 700px) {
+    article > picture > img {
+        height: 650px;
+    }
+
+    .flex01 {
+        display: flex;
+       gap: 12px;
+       padding: 0 24px 0 12px;
+    }
+
+    .flex01 > article {
+        width: 50%;
+        height: 477px;
+        
+    }
+
+    section > article > div > h2 {
+        font-size: 2.7em;
+    }
+
+    section > article > div > p  {
+        font-size: 1.5em;
+    }
+
+    section > article > div > a.saiba {
+        height: 44px;
+        padding: 0 20px;
+        font-size: 1em;
+        border-radius: 25px;
+    }
+
+    section > article > div > a.comprar {
+        height: 44px;
+        padding: 0 20px;
+        font-size: 1em;
+        border-radius: 25px;
+    }
+
+    .flex01 > article > picture {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .flex01 > article > picture > img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
 }
